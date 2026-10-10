@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "lowhealthresistance",
+  "version": "${version}",
+  "name": "Low Health Resistance",
+  "description": "At 1 heart you automatically get infinite Resistance. When you heal to 2 hearts, it is removed.",
+  "authors": ["Universal_XP_"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.universalxp.lowhealthresistance.LowHealthResistance"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
